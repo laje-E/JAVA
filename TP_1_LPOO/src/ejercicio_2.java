@@ -12,10 +12,10 @@ public class ejercicio_2 {
 				
 				if(i%j == 0) {	      //se verifica el resto, si es 0 el numero NO es primo
 					no_primo++;
-					System.out.println("el divisor de " + i + "es: " + j);
+					System.out.println("el divisor de " + i + " es: " + j);
 				}
 				j++;
-			}while (j<i);
+			}while (j<i);			  //se asegura de que j llegue a uno antes de i
 		
 			if (no_primo >= 1) {
 				System.out.println("no es primo");
